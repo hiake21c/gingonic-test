@@ -1,0 +1,32 @@
+GET http://localhost:8080/api/v1/product
+
+###
+GET http://localhost:8080/api/v1/product/10
+
+###
+POST http://localhost:8080/api/v1/product
+
+###
+DELETE http://localhost:8080/api/v1/product/4
+
+###
+PUT http://localhost:8080/api/v1/product/2
+Content-Type: application/json
+
+{
+ "price" : 200
+}
+###
+GET http://localhost:8080/admin/secrets
+Authorization: Basic Zm9vOmJhcg==
+
+//Base foo:bar
+###
+GET http://localhost:8080/long_async
+
+###
+GET http://localhost:8080/long_sync
+
+
+
+
